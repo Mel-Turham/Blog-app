@@ -25,3 +25,5 @@ dist-ssr
 
 
 .env*
+# Million Lint
+.million
