@@ -1,5 +1,6 @@
 import { FeaturesPosts } from '@/components/customs/features-posts';
 import { MainCategories } from '@/components/customs/main-categories';
+import { PostLists } from '@/components/customs/post-list';
 import { Link } from 'react-router-dom';
 
 export default function HomePage() {
@@ -67,6 +68,16 @@ export default function HomePage() {
 
       {/* FEATURED POSTS */}
       <FeaturesPosts />
+
+      {/* RECENT POSTS */}
+
+      <div className=''>
+        <h4 className='my-4 text-muted-foreground text-2xl underline underline-offset-4'>
+          POST RECENTS
+        </h4>
+        {/* POST LIST */}
+        <PostLists />
+      </div>
     </section>
   );
 }

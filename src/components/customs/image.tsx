@@ -22,6 +22,12 @@ export function ImageKit({
       height={h}
       alt={alt}
       className={className}
+      transformation={[
+        {
+          width: w,
+          height: h,
+        },
+      ]}
     />
   );
 }
