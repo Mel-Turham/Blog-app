@@ -1,3 +1,4 @@
+import { Comments } from '@/components/customs/comments';
 import { ImageKit } from '@/components/customs/image';
 import { PostMenuActions } from '@/components/customs/post-menu-actions';
 import { Search } from '@/components/customs/search';
@@ -195,6 +196,7 @@ export default function SignlePostPage() {
           </div>
         </div>
       </div>
+      <Comments />
     </div>
   );
 }
