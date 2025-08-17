@@ -152,3 +152,7 @@ html {
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
 }
+
+.durationButton {
+  animation-duration: 1000ms !important;
+}

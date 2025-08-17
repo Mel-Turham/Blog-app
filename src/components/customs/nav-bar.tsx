@@ -1,12 +1,7 @@
 import { useState } from 'react';
 import { ImageKit } from './image';
 import { Link } from 'react-router-dom';
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from '@clerk/clerk-react';
+import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 export function NavBar() {
   const [open, setOpen] = useState(false);
   return (
