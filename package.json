@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@base-ui-components/react": "1.0.0-beta.2",
+    "@clerk/clerk-react": "^5.42.1",
     "@imagekit/react": "^5.0.1",
     "@radix-ui/react-slot": "^1.2.3",
     "@remixicon/react": "^4.6.0",
