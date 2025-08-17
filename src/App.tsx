@@ -1,9 +1,11 @@
-import { Button } from '@/components/ui/button';
+// import { Button } from '@/components/ui/button';
+
+import { NavBar } from './components/customs/nav-bar';
 
 function App() {
   return (
-    <div className='container pt-8'>
-      <Button>Click me</Button>
+    <div className='container'>
+      <NavBar />
     </div>
   );
 }
