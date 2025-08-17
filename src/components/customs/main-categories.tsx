@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { Input } from '../ui/input';
-
 export function MainCategories() {
   return (
     <div className='hidden md:flex items-center justify-center p-4 gap-8 shadow-lg rounded-3xl bg-card border-input border xl:rounded-full'>

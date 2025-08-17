@@ -10,8 +10,8 @@ export function ImageKit({
   src: string;
   alt: string;
   className?: string;
-  w: number;
-  h: number;
+  w?: number;
+  h?: number;
 }) {
   return (
     <Image
