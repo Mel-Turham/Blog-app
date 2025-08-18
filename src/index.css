@@ -155,3 +155,12 @@ html {
 .durationButton {
   animation-duration: 1000ms !important;
 }
+
+.ql-editor {
+  height: 400px !important;
+  overflow: hidden !important;
+}
+
+.ql-formats {
+  color: white !important;
+}
